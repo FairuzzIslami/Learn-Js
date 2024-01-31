@@ -17,8 +17,8 @@ function angka(nilai){
     }
 }
 let nilai = 80
-let hasilNilai = angka(nilai)
-console.log(hasilNilai)
+// let hasilNilai = angka(nilai)
+console.log( angka(nilai))
 
 //jika saya meng run menggunakan return nanti hasil nya gak keliatan karena
 //di dalam function nya sudah di isi oleh parameter return jadi kita harus 
