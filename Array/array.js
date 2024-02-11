@@ -7,6 +7,7 @@ let nama_siswa = ["fairuz","salsa","damar","zahra","alok",2,3,4,5,6,7]
 
 // untukk menambahkan data di array
 nama_siswa.push("andre","hanum")
+console.table(nama_siswa)
 
 
 // menapilkan data di index yang kita mau
