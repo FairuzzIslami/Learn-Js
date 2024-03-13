@@ -15,6 +15,8 @@ let ashel = {
     status : "suaminya fairuz aqila silami"
 }
 
+const data = ashel.addres.country
+console.log(data)
 
 
 console.log(kucing.nama)

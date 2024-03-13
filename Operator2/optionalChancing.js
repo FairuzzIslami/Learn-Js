@@ -13,7 +13,7 @@ const sapi = {
     nama :{
         country :'fairuz'
     }
-}
+}  
 
 // cara baru
 const dataSapi = sapi?.nama.country

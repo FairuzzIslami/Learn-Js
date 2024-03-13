@@ -27,12 +27,17 @@ console.log (hasil) // hasil nya alah komen string
 console.log(parseInt("12 halo"))
 
 //nan adalah ketika sebuah string yang ada di konversi itu ada tulisan huruf
-// sebelum atau sesudah angka dia akan bertipe NAN tapi float dan int masih bisa meng input pyang awalnnya
-//angka dan di akhir tulisan jika kebalik malah nan
+// sebelum atau sesudah angka dia akan bertipe NAN tapi float dan int masih bisa meng input yang awalnnya
+//angka dan di akhir tulisan, dan jika tulisan baru angka malah menghasilkan nan
 console.log(parseFloat("hello ashel 12")) //nan
 console.log(parseFloat("1 hello ashel 12")) //1
 
 
-// tipe number tidak bisa di kasih huruf karena number saja ynag bis
+// tipe number tidak bisa di kasih huruf karena number saja ynag bisa
+// jika di kasih malah eror
+
+let nilai = "2 dua "
+console.log(Number(nilai)) // nan tdk mau ada huruf di valuenya , jika ada maka akan jadi NaN berati bukan angka
+
 console.log(Number("hallo ashel 12")) // nan
 console.log(Number(" 12 hallo ashel")) // nan
