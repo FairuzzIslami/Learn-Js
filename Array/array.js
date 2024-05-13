@@ -27,4 +27,3 @@ console.log(nama_siswa[2])
 console.log(delete nama_siswa[1])  // index ke 1 jadi undifinde karena di hapus / delete
 console.log(nama_siswa[1])
 
-a
